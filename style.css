@@ -27,7 +27,7 @@
     background: rgb(2,0,36);
     background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     min-width: 20rem;
-    min-height: 20rem;
+    max-height: 20rem;
     border-radius: 8px;
 }
 .number {
@@ -38,8 +38,8 @@
 .one-one {
   position: relative;
   z-index: 1;
-  top: 35px;
-  left: -95px;
+  top: 135px;
+  left: -65px;
   height: 40px;
   width: 20px;
   background: #fff;
@@ -51,8 +51,8 @@
 .one-two {
   position: relative;
   z-index: 10;
-  top: -5px;
-  left: -80px;
+  top: 95px;
+  left: -50px;
   height: 100px;
   width: 24px;
   background: #fff;
@@ -64,8 +64,8 @@
 .zero-two {
   position: relative;
   z-index: 8;
-  top: -105px;
-  left: -60px;
+  top: -5px;
+  left: -30px;
   box-sizing: border-box;
   height: 100px;
   width: 100px;
@@ -76,13 +76,14 @@
 
 .zero-two {
   z-index: 6;
-  top: -205px;
-  left: 20px;
+  top: -105px;
+  left: 50px;
 }
   
 .big {
     position: relative;
     display: block;
+    top: -100px;
     font-size: 82px;
     line-height: 60px;
     font-weight: 700;
@@ -90,6 +91,7 @@
 .small {
     position: relative;
     display: block;
+    top: -100px;
     font-size: 23px;
     line-height: 20px;
     font-weight: 700;
